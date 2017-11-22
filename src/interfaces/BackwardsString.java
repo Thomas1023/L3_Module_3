@@ -8,8 +8,7 @@ public class BackwardsString extends SpecialString {
 
 	@Override
 	public String funkifyText(String s2) {
-		// TODO Auto-generated method stub
-		return null;
+		return new StringBuilder(s2).reverse().toString();
 	}
 
 }
